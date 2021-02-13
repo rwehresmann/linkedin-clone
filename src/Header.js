@@ -7,7 +7,6 @@ import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import avatar from './images/avatar.jpeg';
 
 function Header() {
   return (
@@ -17,7 +16,7 @@ function Header() {
 
         <div className="header__search">
           <SearchIcon/>
-          <input type="text"/>
+          <input type="text" placeholder="Search"/>
         </div>
       </div>
 
@@ -27,7 +26,7 @@ function Header() {
         <HeaderOption Icon={BusinessCenterIcon} title="Jobs"/>
         <HeaderOption Icon={ChatIcon} title="Messaging"/>
         <HeaderOption Icon={NotificationsIcon} title="Notifications"/>
-        <HeaderOption avatar={avatar} title="Me"/>
+        <HeaderOption avatar={true} title="Me"/>
       </div>      
     </div>
   )
