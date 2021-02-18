@@ -2,7 +2,7 @@
 
 ![Contribution guidelines for this project](feed-screenshot.png)
 
-Linkedin clone is an implementation of [Linkedin](https://www.linkedin.com/feed/) that comprehend the following features:
+Linkedin clone is a limited implementation of [Linkedin](https://www.linkedin.com/feed/) that comprehend the following features:
 
   * Registration, login and logout actions;
   * Feed page with the functionality to create posts.
